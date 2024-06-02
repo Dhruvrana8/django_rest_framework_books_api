@@ -9,5 +9,5 @@ class Books(models.Model):
     modified_at= models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        ordering = ['-id']
+        ordering = ['id']
 
